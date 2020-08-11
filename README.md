@@ -36,22 +36,22 @@ Two options are included below.
 <details>
   <summary>2. Using VSCode and the Command Line</summary>
 
-1. Fork repo and add TL as collaborator on Github.
-1. Clone _your_ fork (not Lambda's repo by mistake!).
-1. `cd` into your newly cloned repository.
-1. Create a new branch by typing `git checkout -b <firstName-lastName>`.
-1. Install dependencies by typing `npm install`.
-1. Run tests by typing `npm run test:watch`.
-1. Work on your branch, push commits and create PR as usual.
-1. Make sure to commit often!!
+- [x] Fork repo and add TL as collaborator on Github.
+- [x] Clone _your_ fork (not Lambda's repo by mistake!).
+- [x] `cd` into your newly cloned repository.
+- [x] Create a new branch by typing `git checkout -b <firstName-lastName>`.
+- [x] Install dependencies by typing `npm install`.
+- [x] Run tests by typing `npm run test:watch`.
+- [x] Work on your branch, push commits and create PR as usual.
+- [x] Make sure to commit often!!
 
   <img alt='instructions VSCode' src='./instructionsVScode.png'>
 </details>
 
 ### Task 2a - MVP
 
-Find the file `index.js` and complete tasks 1, 2 and 3 until all of your tests pass.
-There is an additional task 4 which requires written explanations and has no tests.
+- [x] Find the file `index.js` and complete tasks 1, 2 and 3 until all of your tests pass.
+- [x] There is an additional task 4 which requires written explanations and has no tests.
 
 If you run into trouble while coding, fight the good fight for 20 minutes and then get on the help channel. **Remember to formulate your help request in a professional manner** - like you would at the job - by including error messages, screenshots, and any other pertinent information about the problem, as well as what things you have attempted already while trying to solve it.
 
@@ -63,12 +63,12 @@ The completion of these questions is mandatory for MVP. However, passing the qui
 
 ### Task 3 - Stretch
 
-There are stretch goals found throughout `index.js`. Do not start work on these until you have finished MVP.
+- [x] There are stretch goals found throughout `index.js`. Do not start work on these until you have finished MVP.
 
 ## Submission format
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request**
+- [x] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete by merging the branch back into master.
