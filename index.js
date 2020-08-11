@@ -91,13 +91,16 @@ Car.prototype.fill = function (gallons) {
 };
 
 Car.prototype.drive = function (distance) {
+  const drivableMiles = this.tank * this.milesPerGallon;
   const tankLevels = this.tank - distance / this.milesPerGallon;
 
   if (tankLevels > 0) {
     this.tank = tankLevels;
     this.odometer = this.odometer + distance;
+    return `I still have fuel!`;
   } else {
     this.tank = 0;
+    this.odometer = drivableMiles;
     return `I ran out of fuel at ${this.odometer} miles!`;
   }
 };
@@ -105,9 +108,8 @@ Car.prototype.drive = function (distance) {
 const batMobile = new Car("BatMobile", 20);
 
 batMobile.fill(10);
-batMobile.drive(201);
 
-console.log(batMobile.odometer);
+console.log(batMobile.drive(201));
 
 /*
   TASK 3
