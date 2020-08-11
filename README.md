@@ -34,7 +34,7 @@ Two options are included below.
 </details>
 
 <details>
-  <summary>- [x] Using VSCode and the Command Line</summary>
+  <summary>2. Using VSCode and the Command Line</summary>
 
 1. Fork repo and add TL as collaborator on Github.
 1. Clone _your_ fork (not Lambda's repo by mistake!).
